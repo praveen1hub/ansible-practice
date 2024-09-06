@@ -8,10 +8,10 @@
     tasks: 
     - name: print the information
       ansible.builtin.debug:
-       msg: "HI, I am learning {{COURSE}}, Duration is: {{DURATION}}, Timeings is: {{TIMEINGS}}, Trainer: {{TRAINER}}"
+        msg: "HI, I am learning {{COURSE}}, Duration is: {{DURATION}}, Timeings is: {{TIMEINGS}}, Trainer: {{TRAINER}}"
 
     - name: print the information again
-      vasrs: 
+      vars: 
        COURSE: "Ansible" # it is task level , it only apply for wanted task level 
       ansible.builtin.debug:
         msg: "HI, I am learning {{COURSE}}, Duration is: {{DURATION}}, Timeings is: {{TIMEINGS}}, Trainer: {{TRAINER}}"
