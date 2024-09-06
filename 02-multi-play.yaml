@@ -7,8 +7,8 @@
 
 
 - name: PLAY-02
-  host: web
-  task: 
-  - name: PLAY-02 TASK-01
-    ansible.builtin.debug:
-    msg: "This is from PLAY-02 AND TASK-01"    
+host: web
+task: 
+- name: PLAY-02 TASK-01
+ansible.builtin.debug:
+msg: "This is from PLAY-02 AND TASK-01"    
