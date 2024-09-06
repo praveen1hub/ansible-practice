@@ -1,0 +1,6 @@
+- name: to print the vars
+  hosts: web
+  tasks:
+  - name: to print the info
+    ansible.builtin.debug:
+      msg: "Hi, I am learning {{COURSE}}, Duration is: {{DURATION}}, Trainer: {{TRAINER}}"
