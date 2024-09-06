@@ -1,6 +1,6 @@
 - name: varibles from prompt
   hosts: web
-  vars_propmt:
+  vars_prompt:
   - name: COURSE
     prompt: Please enter the course name
     private: false
