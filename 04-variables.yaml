@@ -6,6 +6,6 @@
       TIMEINGS: "7:15 -8:45 am ist"
       TRAINER: "sivakumar reddy M"
     tasks:
-      -name: print the information
-      ansible.builtin.debug:
-       msg: "HI, I am learning {{COURSE}},{{DURATION}},{{TIMEINGS}},{{TRAINER}}""  
+    -name: print the information
+     ansible.builtin.debug:
+      msg: "HI, I am learning {{COURSE}},{{DURATION}},{{TIMEINGS}},{{TRAINER}}""  
