@@ -2,14 +2,14 @@
   hosts: web
   vars_prompt:
   - name: COURSE
-      prompt: Please enter the course name
-      private: false
+    prompt: Please enter the course name
+    private: false
   - name: TRAINER
-      prompt: Please enter the trainer name
-      private: false
+    prompt: Please enter the trainer name
+    private: false
   - name: DURATION
-      prompt: Please enter the DURATION 
-      private: false
+    prompt: Please enter the DURATION 
+    private: false
 
   tasks: 
   - name: print the course information
