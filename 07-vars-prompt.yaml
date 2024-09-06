@@ -9,7 +9,7 @@
     private: false
   - name: DURATION
     prompt: Please enter the DURATION 
-    private: false
+    private: true
 
   tasks: 
   - name: print the course information
