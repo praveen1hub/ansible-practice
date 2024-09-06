@@ -4,7 +4,7 @@
   - vars.yaml
   tasks:
   - name: print the course information 
-    asible.built.debug:
+    asible.builtin.debug:
       msg: "HI Iam learning {{COURSE}}, Duration is: {{DURATIONS}}, Timeings is: {{TIMEINGS}}, Trainer: {{TRAINER}}"
 
   
